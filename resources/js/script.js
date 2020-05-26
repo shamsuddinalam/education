@@ -56,3 +56,11 @@ $("#typeAnimate").typer({
   ],
     typeSpeed: 100
 });
+/* Slick */
+
+$(document).ready(function(){
+  $('.ttml-grid-ctn').slick({
+    autoplay: true,
+     autoplaySpeed: 2000 
+  });
+});
